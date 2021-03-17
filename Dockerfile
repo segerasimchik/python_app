@@ -10,4 +10,4 @@ RUN apt-get install -y nmap
 
 ENTRYPOINT ["python3"]
 CMD ["app.py"]
-EXPOSE 443
+EXPOSE 80
